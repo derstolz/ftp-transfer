@@ -6,10 +6,11 @@ echo USER anonymous >> ftp.txt
 echo ftp >> ftp.txt
 echo bin >> ftp.txt
 $transfer_commands
-echo bye >> ftp.txt"""
+echo bye >> ftp.txt
+ftp -v -n -s:ftp.txt"""
 
 
-DEFAULT_IP = '192.168.0.104'
+DEFAULT_IP = '10.11.0.163'
 DEFAULT_PORT = 21
 
 def get_arguments():
