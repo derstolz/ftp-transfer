@@ -1,5 +1,5 @@
 #!/bin/bash
 
-rm -rf /usr/bin/ftp-transfer &&
-link ftp-transfer.py /usr/bin/ftp-transfer &&
+rm -rf /usr/bin/red-transfer &&
+link red-transfer.py /usr/bin/red-transfer &&
 echo "OK."
